@@ -1,0 +1,209 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Autour One', cursive;
+  }
+
+  .banner-area {
+    background: url("https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .overlay {
+    background-color: rgba(29, 14, 14, 0.9);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+  }
+
+  .left-side {
+    width: 700px;
+    height: 100vh;
+    position: absolute;
+    left: -190px;
+    transition: all 0.5s;
+  }
+  
+  .one {
+    width: 430px;
+    height: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    position: absolute;
+    left: 399px;
+    top: -200px;
+    transition: all 0.5s;
+  }
+
+  .one:hover, .two:hover, .three:hover, .four:hover {
+    border: 15px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(100, 100, 100, .15);
+  }
+
+  .two {
+    width: 430px;
+    height: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    position: absolute;
+    left: 592px;
+    top: 90px;
+    transition: all 0.5s;
+  }
+
+  .three {
+    width: 430px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    position: absolute;
+    left: 775px;
+    top: 385px;
+    transition: all 0.5s;
+  }
+  
+  .four {
+    width: 383px;
+    height: 336px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    position: absolute;
+    left: 1072px;
+    top: 49px;
+    transition: all 0.5s;
+  }
+  
+  .rotate {
+    -ms-transform: rotate(-34deg);
+    -webkit-transform: rotate(-34deg); 
+    transform: rotate(-34deg); 
+  }
+
+  .txt {
+    transform: rotate(34deg); 
+    position: relative;
+    font-size: 40px;
+    top: 200px;
+    left: 280px;
+    color: #fff;
+  }
+
+  h1, a, a:hover {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+  }
+
+  h1::after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    width: 70px;
+    height: 1px;
+    background: #FFF;
+    transition: all 0.5s ease;
+  }
+
+  .one h1::before {
+    content: '01';
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+
+  .one:hover h1:after {
+    top: 33px;
+    left: -40px;
+  }
+
+  .one:hover h1:before {
+    top: 0px;
+    left: -40px;
+  }
+  
+  .two h1::before {
+    content: '02';
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+
+  .two:hover h1:after {
+    top: 33px;
+    left: -40px;
+  }
+
+  .two:hover h1:before {
+    top: 0px;
+    left: -40px;
+  }
+
+  .three h1::before {
+    content: '03';
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+
+  .three:hover h1:after {
+    top: 33px;
+    left: -40px;
+  }
+
+  .three:hover h1:before {
+    top: 0px;
+    left: -40px;
+  }
+
+  .four h1::before {
+    content: '04';
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+
+  .four:hover h1:after {
+    top: 33px;
+    left: -40px;
+  }
+
+  .four:hover h1:before {
+    top: 0px;
+    left: -40px;
+  }
+
+  .hr-align{
+    display: table-cell;
+    vertical-align: middle;
+    transform: rotate(34deg);
+  }
+
+  .txt_one {
+    padding: 180px 0 0 100px;
+  }
+
+  .txt_two {
+    padding: 70px 0 0 70px;
+  }
+
+  .txt_three {
+    padding: 70px 0 0 70px;
+  }
+
+  .txt_four {
+    padding: 70px 0 0 70px;
+  }
+
+  .cv__tocheck {
+    height: 100vh;
+    font-size: 20px;
+  }
