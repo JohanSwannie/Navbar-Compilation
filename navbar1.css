@@ -6,26 +6,29 @@
   }
 
   .banner-area {
-    background: url("https://www.goldmansachs.com/intelligence/pages/multimedia/the-future-of-coding-is-conversation.jpg");
-    width: 100%;
-    height: 100vh;
+    background: url("https://cdn.pixabay.com/photo/2017/05/19/10/43/matrix-2326147_640.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
   }
 
-  .overlay {
+  .banner__overlay, .restpages__overlay {
     position: absolute;
     background-color: rgb(29, 14, 14);
     height: 100vh;
     width: 100%;
-    opacity: 0.55;
+    opacity: 0.75;
   }
 
   .left-side {
     width: 700px;
     height: 100vh;
     position: absolute;
-    left: -280px;
+    left: -320px;
     transition: all 0.5s;
   }
 
@@ -34,6 +37,7 @@
   }
 
   img {
+    border: .1px solid #f4f4f6;
     border-radius: 50%;
     filter: grayscale(40%);
   }
@@ -48,38 +52,48 @@
     transition: all 0.5s;
   }
 
-  .one:hover, .two:hover, .three:hover, .four:hover {
+  .one:hover, .two:hover, .three:hover, .four:hover, .five:hover {
     border: 15px solid rgba(255, 255, 255, 0.1);
     background-color: rgba(100, 100, 100, .5);
   }
 
   .two {
     width: 430px;
-    height: 350px;
+    height: 300px;
     border: 5px solid rgba(255, 255, 255, 0.4);
     position: absolute;
-    left: 592px;
-    top: 90px;
+    left: 577px;
+    top: 94px;
     transition: all 0.5s;
   }
 
   .three {
     width: 430px;
-    height: 235px;
+    height: 255px;
     border: 5px solid rgba(255, 255, 255, 0.4);
     position: absolute;
-    left: 751px;
-    top: 385px;
+    left: 732px;
+    top: 347px;
     transition: all 0.5s;
   }
   
   .four {
     width: 383px;
-    height: 300px;
+    height: 250px;
     border: 5px solid rgba(255, 255, 255, 0.4);
     position: absolute;
-    left: 1030px;
-    top: 10px;
+    left: 1005px;
+    top: 0;
+    transition: all 0.5s;
+  }
+
+  .five {
+    width: 383px;
+    height: 270px;
+    border: 5px solid rgba(255, 255, 255, 0.4);
+    position: absolute;
+    left: 1147px;
+    top: 200px;
     transition: all 0.5s;
   }
   
@@ -95,11 +109,11 @@
     font-size: 33px;
     top: 200px;
     left: 280px;
-    color: #fff;
+    color: #FFF;
   }
 
   h1, a, a:hover {
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     position: relative;
   }
@@ -117,28 +131,28 @@
   .one h1::before {
     content: '01';
     position: absolute;
-    top: -20px;
+    top: -28px;
     left: 0px;
-    font-size: 14px;
+    font-size: 16px;
     transition: all .75s ease;
   }
-
-  .one:hover h1:after {
-    top: 33px;
-    left: -40px;
-  }
-
+  
   .one:hover h1:before {
     top: 0px;
+    left: -40px;
+  }
+  
+  .one:hover h1:after {
+    top: 33px;
     left: -40px;
   }
   
   .two h1::before {
     content: '02';
     position: absolute;
-    top: -20px;
+    top: -28px;
     left: 0px;
-    font-size: 14px;
+    font-size: 16px;
     transition: all .75s ease;
   }
 
@@ -155,9 +169,9 @@
   .three h1::before {
     content: '03';
     position: absolute;
-    top: -20px;
+    top: -28px;
     left: 0px;
-    font-size: 14px;
+    font-size: 16px;
     transition: all .75s ease;
   }
 
@@ -174,9 +188,9 @@
   .four h1::before {
     content: '04';
     position: absolute;
-    top: -20px;
+    top: -28px;
     left: 0px;
-    font-size: 14px;
+    font-size: 16px;
     transition: all .75s ease;
   }
 
@@ -190,7 +204,26 @@
     left: -40px;
   }
 
-  .hr-align{
+  .five h1::before {
+    content: '05';
+    position: absolute;
+    top: -28px;
+    left: 0px;
+    font-size: 16px;
+    transition: all .75s ease;
+  }
+
+  .five:hover h1:after {
+    top: 33px;
+    left: -40px;
+  }
+
+  .five:hover h1:before {
+    top: 0px;
+    left: -40px;
+  }
+
+  .hr-align {
     display: table-cell;
     vertical-align: middle;
     transform: rotate(34deg);
@@ -200,25 +233,44 @@
     padding: 180px 0 0 100px;
   }
 
-  .txt_two {
+  .txt_two, .txt_three, .txt_four, .txt_five {
     padding: 70px 0 0 70px;
   }
 
-  .txt_three {
-    padding: 70px 0 0 70px;
-  }
-
-  .txt_four {
-    padding: 70px 0 0 70px;
-  }
-
-  #portfolio {
-    background-color: rgb(0, 0, 0);
+  #portfolio, #resume, #coverletter, #projects, #contact {
+    background-image: url("https://cdn.pixabay.com/photo/2017/05/19/10/43/matrix-2326147_640.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #FFF;
+    width: 100vw;
     height: 100vh;
+    overflow: hidden;
     font-weight: bold;
   }
   
-  #portfolio h2 {
+  #portfolio h2, #resume h2, #coverletter h2, #projects h2, #contact h2 {
     text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .portfolio__navbars {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .portfolio__navbars nav {
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: .4rem;
+    margin-right: 2rem;
+  }
+
+  .portfolio__navbars nav:hover {
+    background-color: #FFF;
+  }
+
+  .portfolio__navbars nav a:hover {
+    color: #000;
   }
