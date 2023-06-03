@@ -12,8 +12,8 @@
     <title>Navbar Example 1</title>
   </head>
   <body>
-    <div class="banner-area">
-      <div class="overlay"></div>
+    <div class="banner-area" id="home">
+      <div class="banner__overlay"></div>
         <div class="row">
           <div class="left-side rotate">
             <div class="hr-align txt">
@@ -21,7 +21,7 @@
               <h5>Johan Swan</h5><br>
               <p id="textdisplay">Frontend Developer</p><br><br>
               <br />
-                <img src="jswan.jpg" width="270" height="290" alt="jswan-image"><br><br>
+                <img src="jswan.jpg" width="250" height="270" alt="jswan-image"><br><br>
             </div>
           </div>
           <div class="right-side">
@@ -32,17 +32,22 @@
             </div>
             <div class="two rotate">
               <div class="hr-align txt_two">
-                <h1><a href="#">Resume</a></h1>
+                <h1><a href="#resume">Resume</a></h1>
               </div>
             </div>
             <div class="three rotate">
-              <div class="hr-align txt_three">
-                <h1><a href="#">Projects</a></h1>
+              <div class="hr-align txt_two">
+                <h1><a href="#coverletter">Cover Letter</a></h1>
               </div>
             </div>
             <div class="four rotate">
+              <div class="hr-align txt_three">
+                <h1><a href="#projects">Projects</a></h1>
+              </div>
+            </div>
+            <div class="five rotate">
               <div class="hr-align txt_four">
-                <h1><a href="#">Contact</a></h1>
+                <h1><a href="#contact">Contact</a></h1>
               </div>
             </div>
           </div>
@@ -50,8 +55,69 @@
       </div>
     </div>
     <div id="portfolio">
-      <h2>Portfolio</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quidem ad sunt. Modi eaque explicabo rem laudantium ullam ipsum nemo odit voluptatum, asperiores hic vero sequi assumenda laborum inventore! Alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, vero similique repellat quaerat nisi in, obcaecati odio dolorem inventore aliquid non. Ab, eligendi est. Doloribus dolores hic itaque! Qui, suscipit?</p>
+      <div class="restpages__overlay">
+        <div class="portfolio__navbars">
+          <nav><a href="#home">Home</a></nav>
+          <nav><a href="#resume">Resume</a></nav>
+          <nav><a href="#coverletter">Cover Letter</a></nav>
+          <nav><a href="#projects">Projects</a></nav>
+          <nav><a href="#contact">Contact</a></nav>
+        </div>
+        <h2>Portfolio</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quidem ad sunt. Modi eaque explicabo rem laudantium ullam ipsum nemo odit voluptatum, asperiores hic vero sequi assumenda laborum inventore! Alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, vero similique repellat quaerat nisi in, obcaecati odio dolorem inventore aliquid non. Ab, eligendi est. Doloribus dolores hic itaque! Qui, suscipit?</p>
+      </div>
+    </div>
+    <div id="resume">
+      <div class="restpages__overlay">
+        <div class="portfolio__navbars">
+          <nav><a href="#home">Home</a></nav>
+          <nav><a href="#portfolio">Portfolio</a></nav>
+          <nav><a href="#coverletter">Cover Letter</a></nav>
+          <nav><a href="#projects">Projects</a></nav>
+          <nav><a href="#contact">Contact</a></nav>
+        </div>
+        <h2>Resume</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quidem ad sunt. Modi eaque explicabo rem laudantium ullam ipsum nemo odit voluptatum, asperiores hic vero sequi assumenda laborum inventore! Alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, vero similique repellat quaerat nisi in, obcaecati odio dolorem inventore aliquid non. Ab, eligendi est. Doloribus dolores hic itaque! Qui, suscipit?</p>
+      </div>
+    </div>
+    <div id="coverletter">
+      <div class="restpages__overlay">
+        <div class="portfolio__navbars">
+          <nav><a href="#home">Home</a></nav>
+          <nav><a href="#portfolio">Portfolio</a></nav>
+          <nav><a href="#resume">Resume</a></nav>
+          <nav><a href="#projects">Projects</a></nav>
+          <nav><a href="#contact">Contact</a></nav>
+        </div>
+        <h2>Cover Letter</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quidem ad sunt. Modi eaque explicabo rem laudantium ullam ipsum nemo odit voluptatum, asperiores hic vero sequi assumenda laborum inventore! Alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, vero similique repellat quaerat nisi in, obcaecati odio dolorem inventore aliquid non. Ab, eligendi est. Doloribus dolores hic itaque! Qui, suscipit?</p>
+      </div>
+    </div>
+    <div id="projects">
+      <div class="restpages__overlay">
+        <div class="portfolio__navbars">
+          <nav><a href="#home">Home</a></nav>
+          <nav><a href="#portfolio">Portfolio</a></nav>
+          <nav><a href="#resume">Resume</a></nav>
+          <nav><a href="#coverletter">Cover Letter</a></nav>
+          <nav><a href="#contact">Contact</a></nav>
+        </div>
+        <h2>Projects</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quidem ad sunt. Modi eaque explicabo rem laudantium ullam ipsum nemo odit voluptatum, asperiores hic vero sequi assumenda laborum inventore! Alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, vero similique repellat quaerat nisi in, obcaecati odio dolorem inventore aliquid non. Ab, eligendi est. Doloribus dolores hic itaque! Qui, suscipit?</p>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="restpages__overlay">
+        <div class="portfolio__navbars">
+          <nav><a href="#home">Home</a></nav>
+          <nav><a href="#portfolio">Portfolio</a></nav>
+          <nav><a href="#resume">Resume</a></nav>
+          <nav><a href="#coverletter">Cover Letter</a></nav>
+          <nav><a href="#projects">Projects</a></nav>
+        </div>
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quidem ad sunt. Modi eaque explicabo rem laudantium ullam ipsum nemo odit voluptatum, asperiores hic vero sequi assumenda laborum inventore! Alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, vero similique repellat quaerat nisi in, obcaecati odio dolorem inventore aliquid non. Ab, eligendi est. Doloribus dolores hic itaque! Qui, suscipit?</p>
+      </div>
     </div>
   </body>
   <script src="navbar1.js"></script>
