@@ -1,7 +1,7 @@
 const techArray = [
   "SQL Developer",
-  "Mainframe Developer",
   "Software Developer",
+  "Mainframe Developer",
   "Agile Advocate",
   "Brilliant Collaborator",
   "Front End Developer",
